@@ -1,0 +1,47 @@
+<html>
+<head>
+<link rel="stylesheet" href="calci.css">
+<script type="text/javascript" src="calci.js">
+</script>
+</style>
+</head>
+<body>
+<center>
+<table cellpadding="1">
+<tr>
+<td colspan="4"><textarea id='z' onkeydown="stop()"></textarea></td>
+</tr>
+<tr>
+<th><input type="button" value="B" onclick="back()"></th>
+<th><input type="button" value="C" onclick="re()"></th>
+<th><input type="button" value="1/x" onclick="demo()"></th>
+<th><input type="button" value="sqrt" onclick="sqRoot()"></th>
+</tr>
+<tr>
+<th><input type="button"value="7" onclick="solve('7')"></th>
+<th><input type="button" value="8"onclick="solve('8')"></th>
+<th><input type="button"value="9"onclick="solve('9')"></th>
+<th><input type="button"value="/"onclick="solve('/')"></th>
+</tr>
+<tr>
+<th><input type="button" value="4"onclick="solve('4')"></th>
+<th><input type="button" value="5"onclick="solve('5')"></th>
+<th><input type="button" value="6"onclick="solve('6')"></th>
+<th><input type="button" value="*"onclick="solve('*')"></th>
+</tr>
+<tr>
+<th><input type="button" value="1"onclick="solve('1')"></th>
+<th><input type="button" value="2"onclick="solve('2')"></th>
+<th><input type="button" value="3"onclick="solve('3')"></th>
+<th><input type="button" value="-"onclick="solve('-')"></th>
+</tr>
+<tr>
+<th><input type="button" value="0"onclick="solve('0')"></th>
+<th><input type="button" value="."onclick="solve('.')"></th>
+<th><input type="button" value="="onclick="result()"></th>
+<th><input type="button"value="+"onclick="solve('+')"></th>
+</tr>
+</table>
+</center>
+</body>
+</html>
